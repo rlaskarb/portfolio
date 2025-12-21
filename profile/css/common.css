@@ -1,112 +1,105 @@
 :root {
-    --font-100px: 6.25rem;
-    --font-90px: 5.63rem;
-    --font-80px: 5rem;
-    --font-70px: 4.38rem;
-    --font-60px: 3.75rem;
-    --font-50px: 3.13rem;
-    --font-44px: 2.75rem;
-    --font-40px: 2.5rem;
-    --font-38px: 2.38rem;
-    --font-36px: 2.25rem;
-    --font-34px: 2.13rem;
-    --font-30px: 1.88rem;
-    --font-28px: 1.75rem;
-    --font-26px: 1.63rem;
-    --font-24px: 1.5rem;
-    --font-22px: 1.38rem;
-    --font-20px: 1.25rem;
-    --font-18px: 1.13rem;
-    --font-16px: 1rem;
-    --font-14px: 0.88rem;
+  --font-100px: 6.25rem;
+  --font-90px: 5.63rem;
+  --font-80px: 5rem;
+  --font-70px: 4.38rem;
+  --font-60px: 3.75rem;
+  --font-50px: 3.13rem;
+  --font-44px: 2.75rem;
+  --font-40px: 2.5rem;
+  --font-38px: 2.38rem;
+  --font-36px: 2.25rem;
+  --font-34px: 2.13rem;
+  --font-30px: 1.88rem;
+  --font-28px: 1.75rem;
+  --font-26px: 1.63rem;
+  --font-24px: 1.5rem;
+  --font-22px: 1.38rem;
+  --font-20px: 1.25rem;
+  --font-18px: 1.13rem;
+  --font-16px: 1rem;
+  --font-14px: 0.88rem;
 
-
-    --color-main: rgba(44, 0, 62, 1);
-    --color-point1: rgba(0, 174, 255, 1);
-    --color-point2: rgba(255, 0, 128, 1);
-    --color-sub1: rgba(245, 245, 245, 1);
-    --color-sub2: rgba(163, 163, 163, 1);
-    --main-font: #333;
-    --sub-font: rgba(245, 245, 245, 1);
-    --color-7main: #d92629;
-    --color-7point1: #e77e2d;
-    --color-7point2: #017121;
-    --color-7sub2: #faf8f5;
-
+  --color-main: rgba(44, 0, 62, 1);
+  --color-point1: rgba(0, 174, 255, 1);
+  --color-point2: rgba(255, 0, 128, 1);
+  --color-sub1: rgba(245, 245, 245, 1);
+  --color-sub2: rgba(163, 163, 163, 1);
+  --main-font: #333;
+  --sub-font: rgba(245, 245, 245, 1);
+  --color-7main: #d92629;
+  --color-7point1: #e77e2d;
+  --color-7point2: #017121;
+  --color-7sub2: #faf8f5;
 }
-
-
 
 @keyframes scale {
-    0% {
-        color: #333;
-        background: var(--color-sub1);
-    }
+  0% {
+    color: #333;
+    background: var(--color-sub1);
+  }
 
-    25% {
-        color: #fff;
-        background: rgba(0, 125, 255, 0.7);
-        border-radius: 10px;
-    }
+  25% {
+    color: #fff;
+    background: rgba(0, 125, 255, 0.7);
+    border-radius: 10px;
+  }
 
-    75% {
-        color: #fff;
-        background: rgba(0, 125, 255, 0.7);
-        border-radius: 10px;
-    }
+  75% {
+    color: #fff;
+    background: rgba(0, 125, 255, 0.7);
+    border-radius: 10px;
+  }
 
-    100% {
-        color: #333;
-        background: var(--color-sub1);
-    }
+  100% {
+    color: #333;
+    background: var(--color-sub1);
+  }
 }
-
 
 @keyframes bounce {
-    0% {
-        transform: scale(1.1) translateY(0);
-    }
+  0% {
+    transform: scale(1.1) translateY(0);
+  }
 
-    25% {
-        transform: scale(1.15) translateY(-2px);
-    }
+  25% {
+    transform: scale(1.15) translateY(-2px);
+  }
 
-    50% {
-        transform: scale(1.1) translateY(0);
-    }
+  50% {
+    transform: scale(1.1) translateY(0);
+  }
 
-    75% {
-        transform: scale(1.15) translateY(-1px);
-    }
+  75% {
+    transform: scale(1.15) translateY(-1px);
+  }
 
-    100% {
-        transform: scale(1.1) translateY(0);
-    }
+  100% {
+    transform: scale(1.1) translateY(0);
+  }
 }
-
 
 @keyframes scale2 {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    25% {
-        opacity: 0;
-    }
+  25% {
+    opacity: 0;
+  }
 
-    50% {
-        opacity: 1;
-    }
+  50% {
+    opacity: 1;
+  }
 
-    75% {
-        opacity: 0;
-    }
+  75% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 /* CSS Reset */
 
@@ -191,10 +184,10 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 /* 보험 */
@@ -209,58 +202,57 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 html {
-    font-size: var(--font-18px);
+  font-size: var(--font-18px);
 }
 
 body {
-    font-family: "Noto Sans KR", sans-serif;
-    color: #333;
-    font-weight: 400;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333;
+  font-weight: 400;
 }
 
 button,
 input,
 select,
 textarea {
-    font-family: "Noto Sans KR", sans-serif;
-
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 a {
-    display: block;
-    color: #333;
-    text-decoration: none;
+  display: block;
+  color: #333;
+  text-decoration: none;
 }
 
 img {
-    border: 0;
-    vertical-align: top;
+  border: 0;
+  vertical-align: top;
 }
 
 .hidden {
-    display: block;
-    position: absolute;
-    left: -1000%;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    color: #fff;
+  display: block;
+  position: absolute;
+  left: -1000%;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  color: #fff;
 }

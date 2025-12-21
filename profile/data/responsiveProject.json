@@ -1,6 +1,6 @@
 {
-  "sectionClass": "sec5",
-  "anchor": "5section",
+  "sectionClass": "sec4",
+  "anchor": "4section",
   "merits": [
     "미디어 쿼리 & Grid Layout 기반, 전 해상도 최적화 레이아웃",
     "순수 JS 동적 렌더링: 순수 JS & fetch(AJAX)로 JSON 기반 페이지 전체 생성/관리",
@@ -10,22 +10,9 @@
     "웹 표준 준수: W3C(HTML5/CSS3) 표준 준수"
   ],
   "skills": "HTML5, CSS3, 순수 JavaScript (ES6+), JSON, Lighthouse ",
-  "colors": [
-    " 진한보라",
-    "밝은하늘",
-    "밝은핑크",
-    "아이보리"
-  ],
-  "colorCodes": [
-    "#2C003E",
-    "#00AEFF",
-    "#FF0080",
-    "#F5F5F5"
-  ],
-  "fonts": [
-    "Orbitron",
-    "Poppins"
-  ],
+  "colors": [" 진한보라", "밝은하늘", "밝은핑크", "아이보리"],
+  "colorCodes": ["#2C003E", "#00AEFF", "#FF0080", "#F5F5F5"],
+  "fonts": ["Orbitron", "Poppins"],
   "personnel": "1인 기여도(100%)",
   "period": "약 2주"
 }

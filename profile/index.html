@@ -1,473 +1,654 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>김남규 포트폴리오</title>
-    <link rel="icon" type="image/x-icon" href="./images/1.avif">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/x-icon" href="./images/1.avif" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Noto Sans Korean , Roboto 폰트링크 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- 아이콘 링크 -->
-    <script src="https://kit.fontawesome.com/347816e35e.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/347816e35e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <h1 class="hidden">김남규의 포트폴리오</h1>
     <header id="headerArea">
-        <nav id="gnb">
-            <h2 class="hidden">네비게이션</h2>
-            <ul id="menu">
-                <!--  -->
-            </ul>
-        </nav>
+      <nav id="gnb">
+        <h2 class="hidden">네비게이션</h2>
+        <ul id="menu">
+          <!--  -->
+        </ul>
+      </nav>
     </header>
 
     <div id="fullpage">
-        <section class="section sec1" data-anchor="1section">
-            <h2 class="hidden">채팅창</h2>
-            <div class="kakaotalk-app-container">
-                <div class="chat-list-panel">
-                    <div class="kakakotalk-header"></div>
-                    <ul class="chat-list"></ul>
-                </div>
-                <div class="conversation-panel">
-                    <div class="kakakotalk-header"></div>
-                    <div class="kakaotalk-messages"></div>
-                    <div class="kakaotalk-input-area">
-                        <label for="messages-text" class="hidden">메세지 입력</label>
-                        <input type="text" id="messages-text" placeholder="프로필 바로가기 클릭 해주세요." />
-                        <button class="btn">전송</button>
-                    </div>
-                </div>
+      <section class="section sec1" data-anchor="1section">
+        <h2 class="hidden">채팅창</h2>
+        <div class="kakaotalk-app-container">
+          <div class="chat-list-panel">
+            <div class="kakakotalk-header"></div>
+            <ul class="chat-list"></ul>
+          </div>
+          <div class="conversation-panel">
+            <div class="kakakotalk-header"></div>
+            <div class="kakaotalk-messages"></div>
+            <div class="kakaotalk-input-area">
+              <label for="messages-text" class="hidden">메세지 입력</label>
+              <input
+                type="text"
+                id="messages-text"
+                placeholder="프로필 바로가기 클릭 해주세요."
+              />
+              <button class="btn">전송</button>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="section sec2" data-anchor="2section">
-            <h2 class="hidden">김남규 프로필</h2>
+      <section class="section sec2" data-anchor="2section">
+        <h2 class="hidden">김남규 프로필</h2>
+        <div class="profile-wrap">
+          <ul class="profile-link">
+            <li><a href="./data/resume.pdf" target="_blank">Resume</a></li>
+            <li>
+              <a href="https://github.com/rlaskarb" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="./data/storyboard.pdf" target="_blank">Storyboard</a>
+            </li>
+          </ul>
 
-            <div class="profile-wrap">
+          <div class="profile-main">
+            <div class="visual">
+              <img src="./images/kimnam.avif" alt="프로필이미지" />
+            </div>
 
+            <div class="profile-introduction">
+              <div class="profile-identity">
+                <h3 class="headline">견고한 UI를 구현하는 프론트엔드 개발자</h3>
+                <p class="bio">
+                  안녕하세요! 웹 표준과 접근성을 준수하는 견고한 UI 구현에
+                  집중하는 개발자 김남규입니다.<br />
+                  총 14개월(웹 개발 8개월, UI/UX 퍼블리셔 6개월)의 교육으로 다진
+                  꼼꼼한 마크업과 <br />
+                  JavaScript 역량을 바탕으로, 소통하며 편안한 웹 경험을 제공하기
+                  위해 성장합니다.
+                </p>
+              </div>
 
-                <ul class="profile-link">
-                    <li><a href="./data/resume.pdf" target="_blank">Resume</a></li>
-                    <li><a href="https://github.com/rlaskarb" target="_blank">GitHub</a></li>
-                    <li><a href="./data/storyboard.pdf" target="_blank">Storyoard</a></li>
+              <div class="profile-tech">
+                <h4 class="tech-title">보유 기술 (Skills)</h4>
+
+                <div class="tech-category --frontend">
+                  <span>Frontend</span>
+                  <img src="./images/js.avif" alt="jsimg" />
+                  <img src="./images/react.avif" alt="reactimg" />
+                  <img src="./images/html5.avif" alt="html5img" />
+                  <img src="./images/css3.avif" alt="css3img" />
+                  <img src="./images/jquery.avif" alt="jqueryimg" />
+                  <img src="./images/Bootstrap.avif" alt="Bootstrapimg" />
+                  <img src="./images/thymeleaf.avif" alt="thymeleafimg" />
+                </div>
+
+                <div class="tech-sub-grid">
+                  <div class="tech-category">
+                    <span>Version Control</span>
+                    <img src="./images/github.avif" alt="githubimg" />
+                    <img src="./images/git.avif" alt="gitimg" />
+                    <img src="./images/sourceTree.avif" alt="sourceTree" />
+                  </div>
+
+                  <div class="tech-category">
+                    <span>Backend</span>
+                    <img src="./images/Java.avif" alt="javaimg" />
+                    <img src="./images/springboot.avif" alt="springboot" />
+                    <img
+                      src="./images/springframwork.avif"
+                      alt="springframework"
+                    />
+                    <img src="./images/restapi.avif" alt="restapi" />
+                  </div>
+
+                  <div class="tech-category">
+                    <span>Design & Collaboration</span>
+                    <img src="./images/figma.avif" alt="figma" />
+                    <img src="./images/photoshop.avif" alt="photoshop" />
+                    <img src="./images/nostion.avif" alt="nostion" />
+                    <img src="./images/postman.avif" alt="postman" />
+                  </div>
+
+                  <div class="tech-category">
+                    <span>Database</span>
+                    <img src="./images/mysql.avif" alt="mysql" />
+                    <img src="./images/oracle.avif" alt="oracle" />
+                    <img src="./images/supabase.avif" alt="supabase" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-github">
+                <p class="github-caption">
+                  서당개 3년이면 풍월을 읊는다는 신념으로 어떤 기술이든 끈질기게
+                  배워 제것으로 만듭니다.
+                </p>
+                <img
+                  src="https://ghchart.rshah.org/rlaskarb"
+                  alt="rlaskarb's Github chart"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 로또 사이트 포트폴리오 -->
+      <section
+        class="section sec3"
+        data-anchor="3section"
+        data-project-json="./data/dataDrivenWeb.json"
+      >
+        <h2 class="hidden">Data-driven Web App</h2>
+        <div class="pc-wrap">
+          <div class="pc-video">
+            <img src="./images/desktop.png" alt="desktopimg" />
+            <video autoplay loop muted class="autoplay-video" id="videoSec3">
+              <source src="./images/lottom.webm" type="video/webm" />
+            </video>
+          </div>
+
+          <div class="pc-main">
+            <dl class="pc-goto">
+              <dt>
+                <span
+                  >로또 생성기 <br />
+                  <em>(Data-driven Web App) </em></span
+                >
+                <div>
+                  <a
+                    href="https://github.com/rlaskarb/lottogame"
+                    target="_blank"
+                    class="github-link"
+                    aria-label="github 바로가기"
+                    data-tooltip="GitHub 바로가기"
+                  >
+                    <img src="./images/github.avif" alt="github 바로가기" />
+                  </a>
+                  <a
+                    class="lotto"
+                    href="https://rlaskarb20.mycafe24.com/lotto/"
+                    target="_blank"
+                  >
+                    바로가기
+                  </a>
+                </div>
+              </dt>
+              <dd class="pc-merit">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-1"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-2"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-3"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-4"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-5"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-6"></i>
+                  </li>
                 </ul>
+              </dd>
+            </dl>
 
-                <div class="profile-main">
+            <div class="pc-ect">
+              <dl class="pc-skill-dl">
+                <dt class="pc-tech-skill">
+                  제작스킬 <i class="fa-solid fa-asterisk"></i>
+                </dt>
+                <dd class="pc-skill"></dd>
+                <dd class="mobile-qr">
+                  <img src="./images/lottoQr.png" alt="lottoQR" />
+                </dd>
+              </dl>
 
-                    <div class="visual">
-                        <img src="./images/kimnam.avif" alt="프로필이미지">
-                    </div>
+              <dl class="pc-color">
+                <dt>색상/폰트</dt>
+                <dd>
+                  <span></span>
+                </dd>
+                <dd>
+                  <span></span>
+                </dd>
+              </dl>
 
-                    <div class="profile-introduction">
+              <dl class="pc-personnel">
+                <dt>제작인원</dt>
+                <dd>
+                  <!--  -->
+                </dd>
+              </dl>
 
-                        <div class="profile-identity">
-                            <h3 class="headline">견고한 UI를 구현하는 프론트엔드 개발자</h3>
-                            <p class="bio">
-                                안녕하세요! 웹 표준과 접근성을 준수하는 견고한 UI 구현에 집중하는 개발자 김남규입니다.<br>
-                                총 14개월(웹 개발 8개월, UI/UX 퍼블리셔 6개월)의 교육으로 다진 꼼꼼한 마크업과 <br>
-                                JavaScript 역량을 바탕으로, 소통하며 편안한 웹 경험을 제공하기 위해 성장합니다.
-                            </p>
-                        </div>
-
-                        <div class="profile-tech">
-                            <h4 class="tech-title">보유 기술 (Skills)</h4>
-
-                            <div class="tech-category --frontend">
-                                <span>Frontend</span>
-                                <img src="./images/js.avif" alt="jsimg">
-                                <img src="./images/react.avif" alt="reactimg">
-                                <img src="./images/html5.avif" alt="html5img">
-                                <img src="./images/css3.avif" alt="css3img">
-                                <img src="./images/jquery.avif" alt="jqueryimg">
-                                <img src="./images/Bootstrap.avif" alt="Bootstrapimg">
-                                <img src="./images/thymeleaf.avif" alt="thymeleafimg">
-                            </div>
-
-                            <div class="tech-sub-grid">
-
-                                <div class="tech-category">
-                                    <span>Version Control</span>
-                                    <img src="./images/github.avif" alt="githubimg">
-                                    <img src="./images/git.avif" alt="gitimg">
-                                    <img src="./images/sourceTree.avif" alt="sourceTree">
-                                </div>
-
-                                <div class="tech-category">
-                                    <span>Backend</span>
-                                    <img src="./images/Java.avif" alt="javaimg">
-                                    <img src="./images/springboot.avif" alt="springboot">
-                                    <img src="./images/springframwork.avif" alt="springframework">
-                                    <img src="./images/restapi.avif" alt="restapi">
-                                </div>
-
-                                <div class="tech-category">
-                                    <span>Design & Collaboration</span>
-                                    <img src="./images/figma.avif" alt="figma">
-                                    <img src="./images/photoshop.avif" alt="photoshop">
-                                    <img src="./images/nostion.avif" alt="nostion">
-                                    <img src="./images/postman.avif" alt="postman">
-                                </div>
-
-                                <div class="tech-category">
-                                    <span>Database</span>
-                                    <img src="./images/mysql.avif" alt="mysql">
-                                    <img src="./images/oracle.avif" alt="oracle">
-                                    <img src="./images/supabase.avif" alt="supabase">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="profile-github">
-                            <p class="github-caption">서당개 3년이면 풍월을 읊는다는 신념으로 어떤 기술이든 끈질기게 배워 제것으로 만듭니다. </p>
-                            <img src="https://ghchart.rshah.org/rlaskarb" alt="rlaskarb's Github chart" />
-                        </div>
-
-                    </div>
-                </div>
-        </section>
-
-        <!-- pc 웹사이트 포트폴리오 -->
-        <section class="section" data-anchor="3section" data-project-json="./data/webProjectPc.json">
-            <h2 class="hidden">Web Project(PC)</h2>
-            <div class="pc-wrap">
-
-
-                <div class="pc-video">
-                    <img src="./images/desktop.png" alt="desktopimg">
-                    <video autoplay loop muted class="autoplay-video" id="videoSec3">
-                        <source src="./images/pc.webm" type="video/webm">
-                    </video>
-                </div>
-
-                <div class="pc-main">
-                    <dl class="pc-goto">
-                        <dt>
-                            <span>7-ELEVEn <br> <em>(Web Project - PC)</em></span>
-                            <div>
-                                <a href="https://github.com/rlaskarb" target="_blank" class="github-link"
-                                    aria-label="github 바로가기" data-tooltip="GitHub 바로가기">
-                                    <img src="./images/github.avif" alt="github 바로가기">
-                                </a>
-                                <a href="https://rlaskarb20.mycafe24.com/" target="_blank">
-                                    바로가기
-                                </a>
-                            </div>
-                        </dt>
-                        <dd class="pc-merit">
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-1"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-2"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-3"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-4"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-5"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-6"></i>
-                                </li>
-                            </ul>
-                        </dd>
-                    </dl>
-
-                    <div class="pc-ect">
-
-                        <dl class="pc-skill-dl">
-                            <dt class="pc-tech-skill">제작스킬 <i class="fa-solid fa-asterisk"></i></dt>
-                            <dd class="pc-skill">
-                                <!--  -->
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-color">
-                            <dt>색상/폰트</dt>
-                            <dd>
-                                <span></span>
-                            </dd>
-                            <dd>
-                                <span></span>
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-personnel">
-                            <dt>제작인원</dt>
-                            <dd></dd>
-                        </dl>
-
-                        <dl class="pc-period">
-                            <dt>제작기간</dt>
-                            <dd></dd>
-                        </dl>
-                    </div>
-                </div>
+              <dl class="pc-period">
+                <dt>제작기간</dt>
+                <dd></dd>
+              </dl>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- 모바일 사이트 포트폴리오 -->
-        <section class="section" data-anchor="4section" data-project-json="./data/webProjectMobile.json">
-            <h2 class="hidden">Web Project(Mobile)</h2>
-            <div class="pc-wrap">
+      <!-- 반응형 사이트 포트폴리오 -->
+      <section
+        class="section sec4"
+        data-anchor="4section"
+        data-project-json="./data/responsiveProject.json"
+      >
+        <h2 class="hidden">Responsive Project</h2>
+        <div class="pc-wrap">
+          <div class="pc-video">
+            <img src="./images/desktop.png" alt="desktopimg" />
+            <video autoplay loop muted class="autoplay-video" id="videoSec4">
+              <source src="./images/media.webm" type="video/webm" />
+            </video>
 
-                <div class="mobile-video">
-                    <video autoplay loop muted class="autoplay-video" id="videoSec4">
-                        <source src="./images/mmm.webm" type="video/webm">
-                    </video>
+            <ul class="media-imgs">
+              <li><img src="./images/TAB.avif" alt="tapimg" /></li>
+              <li><img src="./images/PPhone.avif" alt="phoneimg" /></li>
+            </ul>
+          </div>
+
+          <div class="pc-main">
+            <dl class="pc-goto">
+              <dt>
+                <span
+                  >K-Pop Demon Hunter <br />
+                  <em>(Responsive Project) </em></span
+                >
+                <div>
+                  <a
+                    href="https://github.com/rlaskarb/KPopDemonHunters"
+                    target="_blank"
+                    class="github-link"
+                    aria-label="github 바로가기"
+                    data-tooltip="GitHub 바로가기"
+                  >
+                    <img src="./images/github.avif" alt="github 바로가기" />
+                  </a>
+                  <a
+                    class="kpop"
+                    href="https://rlaskarb20.mycafe24.com/media"
+                    target="_blank"
+                  >
+                    바로가기
+                  </a>
                 </div>
-
-                <div class="pc-main">
-                    <dl class="pc-goto">
-                        <dt>
-                            <span>7-ELEVEn <br> <em>(Web Project - Mobile)</em></span>
-                            <div>
-                                <a href="https://github.com/rlaskarb" target="_blank" class="github-link"
-                                    aria-label="github 바로가기" data-tooltip="GitHub 바로가기">
-                                    <img src="./images/github.avif" alt="github 바로가기">
-                                </a>
-                                <a href="https://rlaskarb20.mycafe24.com/mobile" target="_blank" id="mobile-window">
-                                    바로가기
-                                </a>
-                            </div>
-                        </dt>
-                        <dd class="pc-merit">
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-1"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-2"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-3"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-4"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-5"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-6"></i>
-                                </li>
-                            </ul>
-                        </dd>
-                    </dl>
-
-                    <div class="pc-ect">
-
-                        <dl class="pc-skill-dl">
-                            <dt class="pc-tech-skill">제작스킬 <i class="fa-solid fa-asterisk"></i></dt>
-                            <dd class="pc-skill">
-                            </dd>
-                            <dd class="mobile-qr">
-                                <img src="./images/mobileQR.avif" alt="mobileQR">
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-color">
-                            <dt>색상/폰트</dt>
-                            <dd>
-                                <span></span>
-                            </dd>
-                            <dd>
-                                <span></span>
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-personnel">
-                            <dt>제작인원</dt>
-                            <dd>
-                                <!--  -->
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-period">
-                            <dt>제작기간</dt>
-                            <dd></dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 반응형 사이트 포트폴리오 -->
-        <section class="section" data-anchor="5section" data-project-json="./data/responsiveProject.json">
-            <h2 class="hidden">Responsive Project</h2>
-            <div class="pc-wrap">
-
-                <div class="pc-video">
-                    <img src="./images/desktop.png" alt="desktopimg">
-                    <video autoplay loop muted class="autoplay-video" id="videoSec5">
-                        <source src="./images/media.webm" type="video/webm">
-                    </video>
-
-                    <ul class="media-imgs">
-                        <li><img src="./images/TAB.avif" alt="tapimg"></li>
-                        <li><img src="./images/PPhone.avif" alt="phoneimg"></li>
-                    </ul>
-                </div>
-
-                <div class="pc-main">
-                    <dl class="pc-goto">
-                        <dt>
-                            <span>K-Pop Demon Hunter <br> <em>(Responsive Project) </em></span>
-                            <div>
-                                <a href="https://github.com/rlaskarb/KPopDemonHunters" target="_blank"
-                                    class="github-link" aria-label="github 바로가기" data-tooltip="GitHub 바로가기">
-                                    <img src="./images/github.avif" alt="github 바로가기">
-                                </a>
-                                <a class="kpop" href="https://rlaskarb20.mycafe24.com/media" target="_blank">
-                                    바로가기
-                                </a>
-                            </div>
-                        </dt>
-                        <dd class="pc-merit">
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-1"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-2"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-3"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-4"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-5"></i>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-6"></i>
-                                </li>
-                            </ul>
-                        </dd>
-                    </dl>
-
-                    <div class="pc-ect">
-
-                        <dl class="pc-skill-dl">
-                            <dt class="pc-tech-skill">제작스킬 <i class="fa-solid fa-asterisk"></i></dt>
-                            <dd class="pc-skill">
-
-                            </dd>
-                            <dd class="mobile-qr">
-                                <img src="./images/mediaQR.avif" alt="mediaQR">
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-color">
-                            <dt>색상/폰트</dt>
-                            <dd>
-                                <span></span>
-                            </dd>
-                            <dd>
-                                <span></span>
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-personnel">
-                            <dt>제작인원</dt>
-                            <dd>
-                                <!--  -->
-                            </dd>
-                        </dl>
-
-                        <dl class="pc-period">
-                            <dt>제작기간</dt>
-                            <dd></dd>
-                        </dl>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </section>
-
-        <section class="section" data-anchor="6section">
-            <h2 class="hidden">Review</h2>
-            <div class="review-content">
-                <ul class="review-list">
-                    <li class="question1">
-                        <img src="./images/2.avif" alt="세븐일레븐로고이미지">
-                        <div class="message-bubble">
-                            <h3>웹사이트를 PC 와 Mobile 버전 두 프로젝트로 개발하면서 가장 크게 성장한 부분은 무엇인가요?</h3>
-                        </div>
-                    </li>
-
-                    <li class="review1">
-                        <img src="./images/1.avif" alt="namimg">
-                        <div class="message-bubble">
-                            <p>
-                                두 버전을 만들면서 <strong>UI의 일관성과 가독성</strong>이 얼마나 중요한지 깊이 깨달았습니다.
-                                처음에는 기능 구현에 집중하다 보니 정보 전달력이 떨어지는 시행착오도 겪었지만,
-                                덕분에 <strong>사용자 관점에서 UX를 개선</strong>하는 데 집중하며 완성도를 높일 수 있었습니다.
-                                특히 BaaS(Supabase)를 연동하며 실제 서비스 구현에 대한 자신감을 얻은 것이 큰 성과였습니다.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="question2">
-                        <img src="./images/sub2_1.avif" alt="루미이미지">
-                        <div class="message-bubble">
-                            <h3>케이팝 데몬 헌터스는 컨셉이 독특한데, 어떤 점에 중점을 두고 기획하셨나요?</h3>
-                        </div>
-                    </li>
-
-                    <li class="review2">
-                        <img src="./images/1.avif" alt="namimg">
-                        <div class="message-bubble">
-                            <p>
-                                케이팝 데몬 헌터스는 <strong>반응형 구현</strong>과 더불어 <strong>성능 최적화</strong>에 가장 큰 중점을 두었습니다.
-                                실무 트렌드에 맞춰 jQuery 없이 <br> <strong>순수 JavaScript</strong>로만 도전했는데,
-                                144개가 넘는 미디어 에셋 때문에 초기 렌더링 속도가 느린 문제가 있었습니다. <br>
-                                이를 해결하기 위해 이미지 파일을 AVIF로 변환하고 <strong>Intersection Observer API</strong>를 활용해
-                                적용한 결과,<br> <strong>Lighthouse 97점</strong>을 달성하며 큰 성취감을 느꼈습니다.
-                                덕분에 JavaScript와 훨씬 더 가까워졌습니다.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="question3">
-                        <img src="./images/wonyoung.avif" alt="장원영이미지">
-                        <div class="message-bubble">
-                            <h3>풀스택 과정과 퍼블리셔 과정을 모두 경험하셨는데, 두 과정을 통해 가장 크게 배운 점은 무엇인가요? </h3>
-                        </div>
-                    </li>
-
-                    <li class="review3">
-                        <img src="./images/1.avif" alt="namimg">
-                        <div class="message-bubble">
-                            <p>
-                                웹 서비스의 <strong>얼굴(UI)</strong>과 <strong>신경(Data)</strong>을 모두 다루어
-                                본 것이 저의 가장 큰 자산입니다. <br> 먼저 8개월의 풀스택 과정으로 <strong>데이터와 연결(API)</strong>
-                                되는 원리를 폭넓게 이해한 후, 이어진 6개월의<br> UI/UX 과정을 통해 얼굴을 구현할 <strong>HTML5/CSS3</strong>
-                                를 깊이 있게 <strong>다질 수 있었던</strong> 소중한 시간이었습니다.
-                            </p>
-                        </div>
-                    </li>
+              </dt>
+              <dd class="pc-merit">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-1"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-2"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-3"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-4"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-5"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-6"></i>
+                  </li>
                 </ul>
+              </dd>
+            </dl>
+
+            <div class="pc-ect">
+              <dl class="pc-skill-dl">
+                <dt class="pc-tech-skill">
+                  제작스킬 <i class="fa-solid fa-asterisk"></i>
+                </dt>
+                <dd class="pc-skill"></dd>
+                <dd class="mobile-qr">
+                  <img src="./images/huntersQr.png" alt="mediaQR" />
+                </dd>
+              </dl>
+
+              <dl class="pc-color">
+                <dt>색상/폰트</dt>
+                <dd>
+                  <span></span>
+                </dd>
+                <dd>
+                  <span></span>
+                </dd>
+              </dl>
+
+              <dl class="pc-personnel">
+                <dt>제작인원</dt>
+                <dd>
+                  <!--  -->
+                </dd>
+              </dl>
+
+              <dl class="pc-period">
+                <dt>제작기간</dt>
+                <dd></dd>
+              </dl>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- pc 웹사이트 포트폴리오 -->
+      <section
+        class="section sec5"
+        data-anchor="5section"
+        data-project-json="./data/webProjectPc.json"
+      >
+        <h2 class="hidden">Web Project(PC)</h2>
+        <div class="pc-wrap">
+          <div class="pc-video">
+            <img src="./images/desktop.png" alt="desktopimg" />
+            <video autoplay loop muted class="autoplay-video" id="videoSec5">
+              <source src="./images/pc.webm" type="video/webm" />
+            </video>
+          </div>
+
+          <div class="pc-main">
+            <dl class="pc-goto">
+              <dt>
+                <span
+                  >7-ELEVEn <br />
+                  <em>(Web Project - PC)</em></span
+                >
+                <div>
+                  <a
+                    href="https://github.com/rlaskarb"
+                    target="_blank"
+                    class="github-link"
+                    aria-label="github 바로가기"
+                    data-tooltip="GitHub 바로가기"
+                  >
+                    <img src="./images/github.avif" alt="github 바로가기" />
+                  </a>
+                  <a href="https://rlaskarb20.mycafe24.com/" target="_blank">
+                    바로가기
+                  </a>
+                </div>
+              </dt>
+              <dd class="pc-merit">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-1"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-2"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-3"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-4"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-5"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-6"></i>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <div class="pc-ect">
+              <dl class="pc-skill-dl">
+                <dt class="pc-tech-skill">
+                  제작스킬 <i class="fa-solid fa-asterisk"></i>
+                </dt>
+                <dd class="pc-skill">
+                  <!--  -->
+                </dd>
+              </dl>
+
+              <dl class="pc-color">
+                <dt>색상/폰트</dt>
+                <dd>
+                  <span></span>
+                </dd>
+                <dd>
+                  <span></span>
+                </dd>
+              </dl>
+
+              <dl class="pc-personnel">
+                <dt>제작인원</dt>
+                <dd></dd>
+              </dl>
+
+              <dl class="pc-period">
+                <dt>제작기간</dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 모바일 사이트 포트폴리오 -->
+      <section
+        class="section sec6"
+        data-anchor="6section"
+        data-project-json="./data/webProjectMobile.json"
+      >
+        <h2 class="hidden">Web Project(Mobile)</h2>
+        <div class="pc-wrap">
+          <div class="mobile-video">
+            <video autoplay loop muted class="autoplay-video" id="videoSec6">
+              <source src="./images/mmm.webm" type="video/webm" />
+            </video>
+          </div>
+
+          <div class="pc-main">
+            <dl class="pc-goto">
+              <dt>
+                <span
+                  >7-ELEVEn <br />
+                  <em>(Web Project - Mobile)</em></span
+                >
+                <div>
+                  <a
+                    href="https://github.com/rlaskarb"
+                    target="_blank"
+                    class="github-link"
+                    aria-label="github 바로가기"
+                    data-tooltip="GitHub 바로가기"
+                  >
+                    <img src="./images/github.avif" alt="github 바로가기" />
+                  </a>
+                  <a
+                    href="https://rlaskarb20.mycafe24.com/mobile"
+                    target="_blank"
+                    id="mobile-window"
+                  >
+                    바로가기
+                  </a>
+                </div>
+              </dt>
+              <dd class="pc-merit">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-1"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-2"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-3"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-4"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-5"></i>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-6"></i>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <div class="pc-ect">
+              <dl class="pc-skill-dl">
+                <dt class="pc-tech-skill">
+                  제작스킬 <i class="fa-solid fa-asterisk"></i>
+                </dt>
+                <dd class="pc-skill"></dd>
+                <dd class="mobile-qr">
+                  <img src="./images/7-ELEVEnQr.png" alt="mobileQR" />
+                </dd>
+              </dl>
+
+              <dl class="pc-color">
+                <dt>색상/폰트</dt>
+                <dd>
+                  <span></span>
+                </dd>
+                <dd>
+                  <span></span>
+                </dd>
+              </dl>
+
+              <dl class="pc-personnel">
+                <dt>제작인원</dt>
+                <dd>
+                  <!--  -->
+                </dd>
+              </dl>
+
+              <dl class="pc-period">
+                <dt>제작기간</dt>
+                <dd></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sec7" data-anchor="7section">
+        <h2 class="hidden">Review</h2>
+        <div class="review-content">
+          <ul class="review-list">
+            <li class="question1">
+              <img src="./images/2.avif" alt="세븐일레븐로고이미지" />
+              <div class="message-bubble">
+                <h3>
+                  웹사이트를 PC 와 Mobile 버전 두 프로젝트로 개발하면서 가장
+                  크게 성장한 부분은 무엇인가요?
+                </h3>
+              </div>
+            </li>
+
+            <li class="review1">
+              <img src="./images/1.avif" alt="namimg" />
+              <div class="message-bubble">
+                <p>
+                  두 버전을 만들면서 <strong>UI의 일관성과 가독성</strong>이
+                  얼마나 중요한지 깊이 깨달았습니다. 처음에는 기능 구현에
+                  집중하다 보니 정보 전달력이 떨어지는 시행착오도 겪었지만,
+                  덕분에 <strong>사용자 관점에서 UX를 개선</strong>하는 데
+                  집중하며 완성도를 높일 수 있었습니다. 특히 BaaS(Supabase)를
+                  연동하며 실제 서비스 구현에 대한 자신감을 얻은 것이 큰
+                  성과였습니다.
+                </p>
+              </div>
+            </li>
+
+            <li class="question2">
+              <img src="./images/sub2_1.avif" alt="루미이미지" />
+              <div class="message-bubble">
+                <h3>
+                  케이팝 데몬 헌터스는 컨셉이 독특한데, 어떤 점에 중점을 두고
+                  기획하셨나요?
+                </h3>
+              </div>
+            </li>
+
+            <li class="review2">
+              <img src="./images/1.avif" alt="namimg" />
+              <div class="message-bubble">
+                <p>
+                  케이팝 데몬 헌터스는 <strong>반응형 구현</strong>과 더불어
+                  <strong>성능 최적화</strong>에 가장 큰 중점을 두었습니다. 실무
+                  트렌드에 맞춰 jQuery 없이 <br />
+                  <strong>순수 JavaScript</strong>로만 도전했는데, 144개가 넘는
+                  미디어 에셋 때문에 초기 렌더링 속도가 느린 문제가 있었습니다.
+                  <br />
+                  이를 해결하기 위해 이미지 파일을 AVIF로 변환하고
+                  <strong>Intersection Observer API</strong>를 활용해 적용한
+                  결과,<br />
+                  <strong>Lighthouse 97점</strong>을 달성하며 큰 성취감을
+                  느꼈습니다. 덕분에 JavaScript와 훨씬 더 가까워졌습니다.
+                </p>
+              </div>
+            </li>
+
+            <li class="question3">
+              <img src="./images/wonyoung.avif" alt="장원영이미지" />
+              <div class="message-bubble">
+                <h3>
+                  풀스택 과정과 퍼블리셔 과정을 모두 경험하셨는데, 두 과정을
+                  통해 가장 크게 배운 점은 무엇인가요?
+                </h3>
+              </div>
+            </li>
+
+            <li class="review3">
+              <img src="./images/1.avif" alt="namimg" />
+              <div class="message-bubble">
+                <p>
+                  웹 서비스의 <strong>얼굴(UI)</strong>과
+                  <strong>신경(Data)</strong>을 모두 다루어 본 것이 저의 가장 큰
+                  자산입니다. <br />
+                  먼저 8개월의 풀스택 과정으로
+                  <strong>데이터와 연결(API)</strong> 되는 원리를 폭넓게 이해한
+                  후, 이어진 6개월의<br />
+                  UI/UX 과정을 통해 얼굴을 구현할 <strong>HTML5/CSS3</strong> 를
+                  깊이 있게 <strong>다질 수 있었던</strong> 소중한
+                  시간이었습니다.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -475,8 +656,5 @@
     <script src="./js/main.js"></script>
     <script src="./js/project.js"></script>
     <script src="./js/window.js"></script>
-
-
-</body>
-
+  </body>
 </html>

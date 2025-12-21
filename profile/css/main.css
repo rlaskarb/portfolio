@@ -39,8 +39,8 @@
 .kakaotalk-app-container {
   width: 100%;
   height: 80%;
-  max-width: 1400px;
-  min-width: 1400px;
+  max-width: 1500px;
+  min-width: 1500px;
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -340,8 +340,8 @@
 
 .profile-link {
   width: 100%;
-  max-width: 1400px;
-  min-width: 1400px;
+  max-width: 1500px;
+  min-width: 1500px;
   margin: -3px auto 15px;
   display: flex;
   justify-content: end;
@@ -373,11 +373,10 @@
   font-weight: 600;
 }
 
-
 .profile-main {
   width: 100%;
-  max-width: 1400px;
-  min-width: 1400px;
+  max-width: 1500px;
+  min-width: 1500px;
   margin: 0 auto;
   padding: 1px 15px;
   display: flex;
@@ -395,8 +394,7 @@
 }
 
 .profile-main .visual img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -523,27 +521,25 @@ section3 Web Project pc
 
 .pc-wrap {
   width: 100%;
-  height: 79%;
+  height: 85%;
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1400px;
-  min-width: 1400px;
+  max-width: 1600px;
+  min-width: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  border: 0.2px solid #ccc;
+  gap: 70px;
   background: #fff;
   border-radius: 20px;
   position: relative;
 }
 
 .pc-wrap .pc-video {
-  width: 45%;
+  width: 39.5%;
   padding-left: 10px;
   margin: 50px auto 0px;
   position: relative;
-
 }
 
 .pc-wrap .pc-video video {
@@ -734,16 +730,14 @@ section3 Web Project pc
       display: flex;
       position: absolute;
       bottom: 50%;
-      left: 0;
+      left: 5%;
       transform: translateY(90%);
       padding: 10px;
       font-size: var(--font-16px);
       background: #343a40;
       color: var(--color-sub1);
-      border-radius: 15px;
-      display: flex;
+      border-radius: 10px;
       transform: opacity 0.5s ease;
-      z-index: 10;
     }
   }
 
@@ -800,16 +794,18 @@ section3 Web Project pc
 
 .pc-main .pc-ect .pc-skill-dl:hover .pc-skill {
   opacity: 1;
+  z-index: 100;
+  width: 250px;
 }
 
 .mobile-qr {
   position: absolute;
-  top: 15px;
-  left: -20px;
+  top: 40px;
+  left: 0;
 }
 
 .mobile-qr img {
-  width: 130px;
+  width: 100px;
 }
 
 .media-imgs {
@@ -837,13 +833,8 @@ section3 Web Project pc
   padding-top: 45px;
 }
 
-
-.section:nth-of-type(5) {
-
-
+.section:nth-of-type(4) {
   .pc-wrap {
-
-
     dt {
       span {
         font-family: "Roboto", "sans-serif";
@@ -864,8 +855,29 @@ section3 Web Project pc
   }
 }
 
+.section:nth-of-type(3) {
+  .pc-wrap {
+    dt {
+      span {
+        font-family: "Roboto", "sans-serif";
+        font-size: var(--font-36px);
+        font-weight: 600;
+      }
 
+      .lotto {
+        background: #1a237e;
+        border: 2px solid #1a237e;
+      }
 
+      .lotto:hover {
+        color: black;
+        font-weight: bold;
+        background: #ffd700;
+        border: 2px solid #ffd700;
+      }
+    }
+  }
+}
 
 /*  6section Review */
 
