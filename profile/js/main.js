@@ -1,7 +1,7 @@
 const navMenuItems = [
   { id: "1section", text: "Home" },
   { id: "2section", text: "Profile" },
-  { id: "3section", text: "Data-driven Web App" },
+  { id: "3section", text: "Lotto Data Analysis" },
   { id: "4section", text: "Responsive Project" },
   { id: "5section", text: "Web Project(PC)" },
   { id: "6section", text: "Web Project(Mobile)" },
