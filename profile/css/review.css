@@ -90,34 +90,36 @@
 
 @media (max-width: 768px) {
   .review-content {
-    width: 97%;
+    width: 100%;
     max-width: 1500px;
     min-width: 330px;
     margin: 0 auto;
     border-radius: 20px;
     background-color: #e3f2fd;
     border: 0.2px solid #ccc;
-    height: 75vh;
+    height: 78vh;
     overflow-y: auto;
 
     h3 {
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 1.2rem;
     }
 
     p {
-      font-size: 14px;
+      font-size: 12px;
+      line-height: 1.3rem;
     }
   }
 
   .review-content ul {
-    padding: 20px 10px;
+    padding: 10px;
   }
 
   .review-content ul li {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    max-width: 99%;
+    margin-bottom: 8px;
+    max-width: 100%;
   }
 
   .review-content img {
@@ -134,8 +136,6 @@
     width: 100%;
     padding: 5px 10px;
     border-radius: 18px;
-    font-weight: 400;
-    line-height: 1.4rem;
   }
 
   .review-list li[class^="question"] {
@@ -143,12 +143,12 @@
   }
 
   .review-list li[class^="question"] img {
-    margin: -7px 15px 0 0;
+    margin: -3px 15px 0 0;
   }
 
   .review-list li[class^="question"] .message-bubble {
     background-color: #fff;
-    border-radius: 1px 17px 17px 17px;
+    border-radius: 5px;
   }
 
   .review-list li[class^="review"] {
@@ -157,20 +157,20 @@
   }
 
   .review1 img {
-    margin: -110px 0 0 15px;
+    display: none;
   }
 
   .review2 img {
-    margin: -140px 0 0 15px;
+    display: none;
   }
 
   .review3 img {
-    margin: -120px 0 0 15px;
+    display: none;
   }
 
   .review-list li[class^="review"] .message-bubble {
     background-color: #ffeb33;
     color: #3c1e1e;
-    border-radius: 17px 1px 17px 17px;
+    border-radius: 5px;
   }
 }
