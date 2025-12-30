@@ -9,10 +9,8 @@
     + https://rlaskarb20.mycafe24.com/mobile
 * 반응형 웹 프로젝트(KPop Demon Hunters)
     + https://rlaskarb20.mycafe24.com/media
-
-*스마트 로또 생성기 (Data-driven Web App)
-   + https://barolotto.com
-  
+* 로또 데이터 분석(Lotto Data Analysis)
+    + https://barolotto.com
 
 
 
