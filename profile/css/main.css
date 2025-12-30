@@ -1,517 +1,3 @@
-#headerArea {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100 !important;
-  background-color: rgba(255, 255, 255, 0.95);
-  transition: background-color 0.5s ease;
-}
-
-#headerArea #gnb #menu {
-  font-family: "Roboto", "sans-serif";
-  width: 95%;
-  margin: 10px auto;
-  display: flex;
-  font-size: var(--font-20px);
-  gap: 20px;
-}
-
-#headerArea #gnb #menu li {
-  padding: 10px 30px 12px;
-  border-radius: 10px;
-}
-
-#headerArea #gnb #menu li:hover,
-#headerArea #gnb #menu li.active {
-  padding: 10px 30px 12px;
-  background-color: #343a40;
-  border-radius: 10px;
-}
-
-#headerArea #gnb #menu li:hover a,
-#headerArea #gnb #menu li.active a {
-  color: #fff;
-}
-
-/* section1 home */
-
-.kakaotalk-app-container {
-  width: 100%;
-  height: 80%;
-  max-width: 1500px;
-  min-width: 1500px;
-  margin: 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.chat-list-panel,
-.conversation-panel {
-  background: #fff;
-  border: 0.2px solid #ccc;
-  border-radius: 20px;
-  transition: all 0.5s ease-in-out;
-}
-
-.chat-list-panel .kakakotalk-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 15px 10px;
-  overflow: hidden;
-}
-
-.chat-list-panel .kakakotalk-header .header-shortcuts {
-  display: flex;
-  gap: 10px;
-  padding: 5px 10px;
-}
-
-.main-title {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-.main-title ul {
-  display: flex;
-  gap: 20px;
-}
-
-.main-title ul li {
-  background-color: #fff;
-  border-radius: 10px;
-  border: 1px solid #333;
-}
-
-.main-title ul li a {
-  font-size: var(--font-18px);
-  font-weight: 600;
-  color: #333;
-  padding: 5px 15px;
-}
-
-#filter-unread {
-  display: flex;
-  gap: 10px;
-}
-
-.header-title {
-  padding: 10px;
-  font-size: var(--font-30px);
-  font-weight: 600;
-}
-
-.header-shortcut-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.chat-list-panel {
-  width: 100%;
-}
-
-.chat-list {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.chat-list .chat-item {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10%;
-  border-bottom: 1px solid #ccc;
-}
-
-.chat-list .chat-item .chat-title {
-  font-size: var(--font-20px);
-  font-weight: 500;
-}
-
-.chat-list .chat-item .chat-preview {
-  font-size: var(--font-16px);
-}
-
-.chat-list .chat-item:first-of-type {
-  border-top: 1px solid #ccc;
-  cursor: pointer;
-  animation: scale 3s infinite;
-}
-
-.chat-list .chat-item:last-of-type {
-  border-bottom: transparent;
-}
-
-.chat-list .chat-item .chat-left {
-  display: flex;
-  gap: 10px;
-}
-
-.chat-list .chat-item .chat-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.chat-list .chat-item .chat-meta {
-  width: 11%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-/* 숫자 */
-#filter-unread .unread-count,
-.chat-list .chat-item .chat-meta .unread-count {
-  width: 25px;
-  height: 25px;
-  padding: 4px 5px 8px;
-  border-radius: 50%;
-  color: #fff;
-  font-size: var(--font-16px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-7main);
-}
-
-/* 이미지 */
-.chat-list .chat-item .avatar {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  background-color: var(--color-sub1);
-}
-
-/* 채팅 얼였을때 */
-
-.conversation-panel {
-  width: 40%;
-  height: 78vh;
-  position: absolute;
-  right: 0;
-  transform: translateX(100%);
-  opacity: 0;
-  background-color: #e3f2fd;
-  display: flex;
-  flex-direction: column;
-  margin-top: -2px;
-}
-
-.conversation-panel .kakakotalk-header {
-  flex-shrink: 0;
-  width: 100%;
-  margin: 0 auto;
-  padding: 15px 20px;
-  font-size: var(--font-30px);
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-bottom: 1px solid #ccc;
-}
-
-.conversation-panel .kakakotalk-header .header-avatar {
-  width: 75px;
-  height: 75px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-}
-
-.kakaotalk-messages {
-  flex-grow: 1;
-  overflow-y: auto;
-}
-
-.kakaotalk-input-area {
-  flex-shrink: 0;
-  width: 100%;
-  display: flex;
-  padding: 10px;
-}
-
-.kakaotalk-input-area #messages-text {
-  width: 85%;
-  margin: 0 auto;
-  padding: 5px;
-  border-radius: 10px;
-  border: 0;
-  background: #fff;
-}
-
-.kakaotalk-input-area .btn {
-  width: 10%;
-  font-size: var(--font-14px);
-  vertical-align: top;
-  border: 0;
-  background: #fae100;
-  padding: 10px;
-  border-radius: 7px;
-  transition: filter 0.5s ease;
-  cursor: pointer;
-}
-
-.kakaotalk-input-area .btn:hover {
-  filter: brightness(110%);
-}
-
-.kakaotalk-message-row {
-  width: 100%;
-  padding: 15px 20px;
-  display: flex;
-  gap: 15px;
-}
-
-.kakaotalk-message-row .message-content {
-  display: flex;
-  padding-top: 20px;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.header-avatar,
-.avatar {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-}
-
-.message-content .sender-name {
-  font-size: var(--font-18px);
-  font-weight: 600;
-}
-
-.message-content .kakaotalk-bubble {
-  padding: 13px 23px 15px;
-  font-size: var(--font-20px);
-  font-size: 600;
-  background: #fff;
-  border-radius: 3px 17px 17px 17px;
-}
-
-.message-content .kakaotalk-bubble a {
-  color: #343a40;
-  font-weight: 600;
-  cursor: pointer;
-  animation: bounce 3s infinite;
-}
-
-.kakaotalk-app-container.conversation-active .chat-list-panel {
-  width: 58%;
-  height: 78vh;
-  margin-top: -2px;
-}
-
-.kakaotalk-app-container.conversation-active .conversation-panel {
-  transform: translateX(0);
-  opacity: 1;
-}
-
-/* 프로필 CSS */
-
-.profile-wrap {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.profile-intro li:nth-of-type(2) {
-  font-size: var(--font-22px);
-  font-weight: 500;
-  background: var(--color-sub1);
-  padding: 10px 25px;
-  border-radius: 20px;
-}
-
-.profile-link {
-  width: 100%;
-  max-width: 1500px;
-  min-width: 1500px;
-  margin: -3px auto 15px;
-  display: flex;
-  justify-content: end;
-  gap: 30px;
-}
-
-.profile-link li {
-  background: #343a40;
-  border: 3px solid transparent;
-  padding: 7px 20px 9px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.profile-link li a {
-  font-family: "Roboto", "sans-serif";
-  font-size: var(--font-24px);
-  font-weight: 500;
-  color: var(--color-sub1);
-}
-
-.profile-link li:hover {
-  background: var(--color-sub1);
-  border: 3px solid #343a40;
-}
-
-.profile-link li:hover a {
-  color: #343a40;
-  font-weight: 600;
-}
-
-.profile-main {
-  width: 100%;
-  max-width: 1500px;
-  min-width: 1500px;
-  margin: 0 auto;
-  padding: 1px 15px;
-  display: flex;
-  align-items: center;
-  gap: 1%;
-  background: #fff;
-  border: 0.2px solid #ccc;
-  border-radius: 20px;
-}
-
-.profile-main .visual {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 20px;
-}
-
-.profile-main .visual img {
-  width: 90%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.profile-introduction {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.profile-introduction {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.profile-identity {
-  margin-bottom: 20px;
-}
-
-.headline {
-  font-size: var(--font-38px);
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.bio {
-  font-size: var(--font-18px);
-  line-height: 1.7rem;
-  color: #555;
-  font-weight: 400;
-
-  strong {
-    color: #333;
-    font-size: var(--font-20px);
-  }
-}
-
-/* 2. 기술 스택 */
-.profile-tech {
-  margin-bottom: 15px;
-}
-
-.tech-title {
-  width: 200px;
-  padding: 5px 10px;
-  font-family: "Roboto", "sans-serif";
-  font-size: var(--font-20px);
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 15px;
-  color: var(--color-sub1);
-  background: #343a40;
-  border-radius: 8px;
-}
-
-.tech-category.--frontend {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 15px;
-  background-color: rgba(163, 163, 163, 0.3);
-  border-radius: 8px;
-  margin-bottom: 10px;
-  /* 아래 그리드와의 간격 */
-}
-
-.tech-sub-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.tech-category {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 15px;
-  background-color: rgba(163, 163, 163, 0.3);
-  border-radius: 8px;
-}
-
-.tech-category span {
-  font-family: "Roboto", "sans-serif";
-  font-size: var(--font-16px);
-  font-weight: 600;
-  width: 130px;
-  flex-shrink: 0;
-}
-
-.tech-category img {
-  width: 45px;
-  height: 45px;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-/* 3. GitHub 잔디 */
-.profile-github {
-  text-align: center;
-}
-
-.github-caption {
-  font-size: var(--font-16px);
-  margin-bottom: 16px;
-  font-weight: 600;
-  color: #444;
-}
-
-.profile-github img {
-  width: 90%;
-  object-fit: contain;
-}
-
 /* 
 
 section3 Web Project pc
@@ -838,7 +324,6 @@ section3 Web Project pc
     dt {
       span {
         font-family: "Roboto", "sans-serif";
-        font-size: var(--font-36px);
         font-weight: 600;
       }
 
@@ -860,7 +345,6 @@ section3 Web Project pc
     dt {
       span {
         font-family: "Roboto", "sans-serif";
-        font-size: var(--font-36px);
         font-weight: 600;
       }
 
@@ -879,78 +363,208 @@ section3 Web Project pc
   }
 }
 
-/*  6section Review */
+/* 
 
-.review-content {
-  width: 100%;
-  max-width: 1500px;
-  min-width: 1500px;
-  margin: 0 auto;
-  border-radius: 20px;
-  background-color: #e3f2fd;
-  border: 0.2px solid #ccc;
-}
 
-.review-content ul {
-  padding: 40px 20px 0;
-}
 
-.review-content ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  max-width: 70%;
-}
 
-.review-content img {
-  width: 70px;
-  height: 70px;
-  border-radius: 15px;
-  object-fit: cover;
-  flex-shrink: 0;
-  background: #fff;
-  border: 0.5px solid #ccc;
-}
 
-.message-bubble {
-  padding: 10px 20px;
-  border-radius: 18px;
-  font-weight: 400;
-  line-height: 1.7rem;
-}
 
-.review-list li[class^="question"] {
-  margin-right: auto;
-}
 
-.review-list li[class^="question"] img {
-  margin: -40px 15px 0 0;
-}
 
-.review-list li[class^="question"] .message-bubble {
-  background-color: #fff;
-  border-radius: 1px 17px 17px 17px;
-}
+모바일
 
-.review-list li[class^="review"] {
-  margin-left: auto;
-  flex-direction: row-reverse;
-}
 
-.review1 img {
-  margin: -110px 0 0 15px;
-}
 
-.review2 img {
-  margin: -140px 0 0 15px;
-}
 
-.review3 img {
-  margin: -120px 0 0 15px;
-}
 
-.review-list li[class^="review"] .message-bubble {
-  background-color: #ffeb33;
-  color: #3c1e1e;
-  border-radius: 17px 1px 17px 17px;
+
+
+
+
+*/
+@media (max-width: 768px) {
+  .pc-wrap {
+    width: 98%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1600px;
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .pc-wrap .pc-video {
+    width: 80%;
+    padding-left: 0px;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .pc-wrap .pc-video video {
+    width: 94%;
+    height: 66%;
+    object-fit: cover;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+  }
+
+  .pc-wrap .mobile-video {
+    width: 80%;
+  }
+
+  .pc-wrap .mobile-video video {
+    width: 80%;
+  }
+
+  .pc-wrap .pc-video img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    z-index: 2;
+  }
+
+  .pc-wrap .pc-main {
+    flex: 1;
+    margin: 0 auto;
+  }
+
+  .pc-wrap .pc-main .pc-goto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pc-main .pc-goto dt {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    margin: 20px auto 50px;
+    gap: 1px;
+
+    span {
+      font-family: "Roboto", "sans-serif";
+      font-size: var(--font-22px) !important;
+      line-height: 1.4rem;
+      font-weight: 600;
+      margin-top: -10px;
+    }
+
+    em {
+      font-size: var(--font-14px);
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .github-link {
+        position: relative;
+
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: contain;
+        }
+      }
+
+      a:nth-of-type(2) {
+        width: 100px;
+        height: 40px;
+        padding: 4px 10px;
+        font-size: var(--font-14px);
+        font-weight: 500;
+        border-radius: 10px;
+        border: 3px solid transparent;
+      }
+    }
+  }
+
+  .github-link::before {
+    display: none;
+    content: attr(data-tooltip);
+    margin-bottom: 10px;
+    font-size: var(--font-14px);
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .github-link::after {
+    display: none;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -9px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--color-7main) transparent transparent transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .pc-main .pc-goto .pc-merit {
+    font-size: var(--font-14px);
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-top: -30px;
+
+    ul li {
+      width: 95%;
+      margin: 0 auto;
+      gap: 5px;
+      padding-bottom: 2px;
+
+      i {
+        font-size: 13px !important;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .mobile-qr {
+    display: none;
+  }
+
+  .media-imgs li:nth-of-type(1) img {
+    display: none;
+  }
+
+  .media-imgs li:nth-of-type(2) img {
+    display: none;
+  }
+
+  .pc-personnel,
+  .pc-period,
+  .pc-ect,
+  .pc-tech-skill,
+  .pc-color {
+    display: none;
+  }
+
+  #videoSec6 {
+    width: 80%;
+    height: 50%;
+    margin: 20px auto 0;
+  }
+
+  .mobile-main {
+    margin: -250px auto 0;
+  }
 }

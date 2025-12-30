@@ -1,0 +1,176 @@
+/*  6section Review */
+
+.review-content {
+  width: 100%;
+  max-width: 1500px;
+  min-width: 1500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #e3f2fd;
+  border: 0.2px solid #ccc;
+}
+
+.review-content ul {
+  padding: 40px 20px 0;
+}
+
+.review-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 70%;
+}
+
+.review-content img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #fff;
+  border: 0.5px solid #ccc;
+}
+
+.message-bubble {
+  padding: 10px 20px;
+  border-radius: 18px;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+.review-list li[class^="question"] {
+  margin-right: auto;
+}
+
+.review-list li[class^="question"] img {
+  margin: -40px 15px 0 0;
+}
+
+.review-list li[class^="question"] .message-bubble {
+  background-color: #fff;
+  border-radius: 1px 17px 17px 17px;
+}
+
+.review-list li[class^="review"] {
+  margin-left: auto;
+  flex-direction: row-reverse;
+}
+
+.review1 img {
+  margin: -110px 0 0 15px;
+}
+
+.review2 img {
+  margin: -140px 0 0 15px;
+}
+
+.review3 img {
+  margin: -120px 0 0 15px;
+}
+
+.review-list li[class^="review"] .message-bubble {
+  background-color: #ffeb33;
+  color: #3c1e1e;
+  border-radius: 17px 1px 17px 17px;
+}
+
+/* 
+
+
+
+
+
+모바일
+
+
+
+
+
+*/
+
+@media (max-width: 768px) {
+  .review-content {
+    width: 97%;
+    max-width: 1500px;
+    min-width: 330px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #e3f2fd;
+    border: 0.2px solid #ccc;
+    height: 75vh;
+    overflow-y: auto;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .review-content ul {
+    padding: 20px 10px;
+  }
+
+  .review-content ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 99%;
+  }
+
+  .review-content img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #fff;
+    border: 0.5px solid #ccc;
+  }
+
+  .message-bubble {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 18px;
+    font-weight: 400;
+    line-height: 1.4rem;
+  }
+
+  .review-list li[class^="question"] {
+    margin-right: auto;
+  }
+
+  .review-list li[class^="question"] img {
+    margin: -7px 15px 0 0;
+  }
+
+  .review-list li[class^="question"] .message-bubble {
+    background-color: #fff;
+    border-radius: 1px 17px 17px 17px;
+  }
+
+  .review-list li[class^="review"] {
+    margin-left: auto;
+    flex-direction: row-reverse;
+  }
+
+  .review1 img {
+    margin: -110px 0 0 15px;
+  }
+
+  .review2 img {
+    margin: -140px 0 0 15px;
+  }
+
+  .review3 img {
+    margin: -120px 0 0 15px;
+  }
+
+  .review-list li[class^="review"] .message-bubble {
+    background-color: #ffeb33;
+    color: #3c1e1e;
+    border-radius: 17px 1px 17px 17px;
+  }
+}

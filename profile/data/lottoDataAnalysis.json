@@ -1,0 +1,18 @@
+{
+  "sectionClass": "sec3",
+  "anchor": "3section",
+  "merits": [
+    "CORS 해결: PHP Proxy 서버 구축으로 브라우저 보안 제약 해결 및 데이터 연동",
+    "JS 알고리즘: 라이브러리 없이 4가지 맞춤형 분석 로직을 Vanilla JS로 직접 구현",
+    "서버 배포: Cafe24 리눅스 환경 구축 및 SSL(HTTPS) 보안 적용 후 독자 배포",
+    "SEO 성과: Sitemap, Open Graph 최적화로 구글/네이버 실제 검색 노출 달성",
+    "인터랙티브 UX 구현: CSS Keyframes 기반 공 애니메이션 및 전략별 커스텀 모달 제공",
+    "PWA 도입: PWA 표준 적용으로 홈 화면 설치 및 네이티브 앱 수준의 사용성 제공"
+  ],
+  "skills": "HTML5, CSS3, JavaScript (ES6+), PHP (Proxy), PWA, Google Search Console, JSON",
+  "colors": ["골드", "딥네이비", "포인트레드", "화이트"],
+  "colorCodes": ["#FFD700", "#1A237E", "#D32F2F", "#FFFFFF"],
+  "fonts": ["Noto Sans KR", "Roboto"],
+  "personnel": "1인 기여도(100%)",
+  "period": "약 1주 "
+}
