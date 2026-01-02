@@ -31,7 +31,7 @@ const chatListData = [
     id: "friend",
     title: "친구",
     lastMessage: "👍",
-    time: "오후 2:40",
+    time: "오전 07:40",
     unread: 0,
     avatar: "./images/6.avif",
     mediaType: "image",
@@ -53,7 +53,7 @@ const chatListData = [
     id: "hunters",
     title: "ZOEY",
     lastMessage:
-      "LIGHTHOUSE 98... 혹시 이미지/영상 144개 넣으신 거 맞나요? 점수가 믿기지 않아서요.",
+      "LIGHTHOUSE 97... 혹시 이미지/영상 144개 넣으신 거 맞나요? 점수가 믿기지 않아서요.",
     time: "오전 09:30",
     unread: 0,
     avatar: "./images/zoey.avif",
@@ -364,6 +364,7 @@ $(document).ready(function () {
     fixedElements: "#headerArea",
     paddingTop: "75px",
     menu: "#menu",
+    normalScrollElements: ".review-content",
 
     anchors: [
       "1section",

@@ -2,12 +2,17 @@
 
 .review-content {
   width: 100%;
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1600px;
+  min-width: 1600px;
   margin: 0 auto;
   border-radius: 20px;
   background-color: #e3f2fd;
   border: 0.2px solid #ccc;
+
+  height: 78vh;
+  overflow-y: auto;
+  /* 스크롤바 디자인 */
+  scrollbar-width: thin;
 }
 
 .review-content ul {
@@ -57,14 +62,16 @@
 }
 
 .review1 img {
-  margin: -110px 0 0 15px;
+  margin: -120px 0 0 15px;
 }
 
 .review2 img {
   margin: -140px 0 0 15px;
 }
 
-.review3 img {
+.review3 img,
+.review4 img,
+.review5 img {
   margin: -120px 0 0 15px;
 }
 
@@ -97,7 +104,7 @@
     border-radius: 20px;
     background-color: #e3f2fd;
     border: 0.2px solid #ccc;
-    height: 78vh;
+    height: 75vh;
     overflow-y: auto;
 
     h3 {
@@ -156,15 +163,11 @@
     flex-direction: row-reverse;
   }
 
-  .review1 img {
-    display: none;
-  }
-
-  .review2 img {
-    display: none;
-  }
-
-  .review3 img {
+  .review1 img,
+  .review2 img,
+  .review3 img,
+  .review4 img,
+  .review5 img {
     display: none;
   }
 
