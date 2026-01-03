@@ -350,7 +350,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-    gap: 1px;
+    gap: 0;
   }
 
   #headerArea #gnb #menu li {

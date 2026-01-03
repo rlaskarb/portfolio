@@ -6,12 +6,11 @@
   min-width: 1600px;
   margin: 0 auto;
   border-radius: 20px;
+  padding: 7px 0;
   background-color: #e3f2fd;
   border: 0.2px solid #ccc;
-
   height: 78vh;
   overflow-y: auto;
-  /* 스크롤바 디자인 */
   scrollbar-width: thin;
 }
 
@@ -104,7 +103,7 @@
     border-radius: 20px;
     background-color: #e3f2fd;
     border: 0.2px solid #ccc;
-    height: 75vh;
+    height: 73vh;
     overflow-y: auto;
 
     h3 {
