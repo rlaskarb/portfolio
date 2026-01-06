@@ -31,7 +31,7 @@ section3 Web Project pc
 .pc-wrap .pc-video video {
   width: 90%;
   height: 66%;
-  object-fit: cover;
+  object-fit: fill;
   position: absolute;
   top: 5%;
   left: 5%;
@@ -177,12 +177,7 @@ section3 Web Project pc
       display: flex;
       justify-content: center;
       align-items: center;
-      /* width: 24px;
-            height: 24px;
-            padding: 5px;
-            border-radius: 50%;
-            background: var(--color-7main);
-            color: var(--color-sub1); */
+      color: green;
       font-size: var(--font-14px) !important;
       font-weight: bold;
     }
@@ -319,7 +314,7 @@ section3 Web Project pc
   padding-top: 45px;
 }
 
-.section:nth-of-type(4) {
+.section:nth-of-type(5) {
   .pc-wrap {
     dt {
       span {
@@ -340,7 +335,7 @@ section3 Web Project pc
   }
 }
 
-.section:nth-of-type(3) {
+.section:nth-of-type(4) {
   .pc-wrap {
     dt {
       span {
@@ -411,7 +406,7 @@ section3 Web Project pc
   .pc-wrap .pc-video video {
     width: 94%;
     height: 66%;
-    object-fit: cover;
+    object-fit: fill;
     position: absolute;
     top: 5%;
     left: 3%;
@@ -558,7 +553,7 @@ section3 Web Project pc
     display: none;
   }
 
-  #videoSec6 {
+  #videoSec7 {
     width: 60%;
     height: 45%;
     margin: 50px auto 0;
