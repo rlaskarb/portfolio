@@ -1,11 +1,12 @@
 const navMenuItems = [
   { id: "1section", text: "Home" },
   { id: "2section", text: "Profile" },
-  { id: "3section", text: "Lotto Data Analysis" },
-  { id: "4section", text: "Responsive Project" },
-  { id: "5section", text: "Web Project(PC)" },
-  { id: "6section", text: "Web Project(Mobile)" },
-  { id: "7section", text: "Review" },
+  { id: "3section", text: "Erp Project" },
+  { id: "4section", text: "Lotto Data" },
+  { id: "5section", text: "Responsive" },
+  { id: "6section", text: "Web (PC)" },
+  { id: "7section", text: "Web (Mobile)" },
+  { id: "8section", text: "Review" },
 ];
 
 const headerShortcuts = [
@@ -37,6 +38,19 @@ const chatListData = [
     mediaType: "image",
     isClickable: false,
   },
+
+  {
+    id: "brauhaus",
+    title: "Brauhaus",
+    lastMessage:
+      "React로 ERP요? 배포 안 된 게 아쉬울 정도네요. 그 복잡한 상태 관리, 어떻게 하셨어요?",
+    time: "오전 08:00",
+    unread: 0,
+    avatar: "./images/bra.avif",
+    mediaType: "image",
+    isClickable: false,
+  },
+
   {
     id: "lotto",
     title: "Lotto 판매점",
@@ -67,18 +81,6 @@ const chatListData = [
     time: "오후 12:30",
     unread: 0,
     avatar: "./images/2.avif",
-    mediaType: "image",
-    isClickable: false,
-  },
-
-  {
-    id: "brauhaus",
-    title: "Brauhaus",
-    lastMessage:
-      "React로 ERP요? 배포 안 된 게 아쉬울 정도네요. 그 복잡한 상태 관리, 어떻게 하셨어요?",
-    time: "오후 04:00",
-    unread: 0,
-    avatar: "./images/bra.avif",
     mediaType: "image",
     isClickable: false,
   },
@@ -357,6 +359,7 @@ $(document).ready(function () {
     { anchor: "4section", videoId: "videoSec4" },
     { anchor: "5section", videoId: "videoSec5" },
     { anchor: "6section", videoId: "videoSec6" },
+    { anchor: "7section", videoId: "videoSec7" },
   ];
 
   $("#fullpage").fullpage({
@@ -374,6 +377,7 @@ $(document).ready(function () {
       "5section",
       "6section",
       "7section",
+      "8section",
     ],
 
     //fullPage.js 의 도착알림 서비스 설정

@@ -269,15 +269,15 @@ img {
 
 #headerArea #gnb #menu {
   font-family: "Roboto", "sans-serif";
-  width: 95%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 10px 0 0 15px;
   display: flex;
-  font-size: var(--font-20px);
-  gap: 20px;
+  font-size: var(--font-18px);
+  gap: 15px;
 }
 
 #headerArea #gnb #menu li {
-  padding: 10px 30px 12px;
+  padding: 10px 15px 12px;
   border-radius: 10px;
   border: 1px solid #555;
 }
@@ -350,17 +350,17 @@ img {
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-    gap: 0;
+    gap: 2px;
   }
 
   #headerArea #gnb #menu li {
-    padding: 10px 5px;
+    padding: 7px 10px;
     border-radius: 10px;
   }
 
   #headerArea #gnb #menu li:hover,
   #headerArea #gnb #menu li.active {
-    padding: 10px 5px;
+    padding: 7px 10px;
     background-color: #343a40;
     border-radius: 10px;
   }

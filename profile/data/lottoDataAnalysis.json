@@ -1,6 +1,6 @@
 {
-  "sectionClass": "sec3",
-  "anchor": "3section",
+  "sectionClass": "sec4",
+  "anchor": "4section",
   "merits": [
     "데이터 최적화: JSON 정적 데이터 구조 설계로 API 지연 제거 및 LocalStorage 기반 개인화 기록 관리",
     "JS 알고리즘: 라이브러리 없이 4가지 맞춤형 분석 로직을 Vanilla JS로 직접 구현",
@@ -14,5 +14,5 @@
   "colorCodes": ["#FFD700", "#1A237E", "#D32F2F", "#FFFFFF"],
   "fonts": ["Noto Sans KR", "Roboto"],
   "personnel": "1인 기여도(100%)",
-  "period": "약 3주 "
+  "period": "약 2주 "
 }

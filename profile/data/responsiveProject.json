@@ -1,6 +1,6 @@
 {
-  "sectionClass": "sec4",
-  "anchor": "4section",
+  "sectionClass": "sec5",
+  "anchor": "5section",
   "merits": [
     "미디어 쿼리 & Grid Layout 기반, 전 해상도 최적화 레이아웃",
     "순수 JS 동적 렌더링: 순수 JS & fetch(AJAX)로 JSON 기반 페이지 전체 생성/관리",

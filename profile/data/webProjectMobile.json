@@ -1,6 +1,6 @@
 {
-  "sectionClass": "sec6",
-  "anchor": "6section",
+  "sectionClass": "sec7",
+  "anchor": "7section",
   "merits": [
     "모바일 환경 최적화: 유동형 레이아웃 및 반응형 이미지 구현",
     "백엔드 없이 CRUD 구현: Supabase를 사용하여, 서버 구축 없이도 게시판 기능 완성",
