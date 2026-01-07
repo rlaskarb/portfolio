@@ -9,7 +9,7 @@
     "인터랙티브 UX 구현: CSS Keyframes 기반 공 애니메이션 및 전략별 커스텀 모달 제공",
     "PWA 도입: PWA 표준 적용으로 홈 화면 설치 및 네이티브 앱 수준의 사용성 제공"
   ],
-  "skills": "HTML5, CSS3, JavaScript (ES6+), PHP (Proxy), PWA, Google Search Console, JSON",
+  "skills": "HTML5, CSS3, JavaScript (ES6+), PWA, Google Search Console, JSON",
   "colors": ["골드", "딥네이비", "포인트레드", "화이트"],
   "colorCodes": ["#FFD700", "#1A237E", "#D32F2F", "#FFFFFF"],
   "fonts": ["Noto Sans KR", "Roboto"],
