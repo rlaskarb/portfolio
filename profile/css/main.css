@@ -130,7 +130,9 @@ section3 Web Project pc
   white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .github-link::after {
@@ -145,7 +147,9 @@ section3 Web Project pc
   border-color: var(--color-7main) transparent transparent transparent;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .pc-main .pc-goto dt a:nth-of-type(2):hover {
@@ -495,7 +499,9 @@ section3 Web Project pc
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
   }
 
   .github-link::after {
@@ -511,7 +517,9 @@ section3 Web Project pc
     border-color: var(--color-7main) transparent transparent transparent;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
   }
 
   .pc-main .pc-goto .pc-merit {

@@ -87,15 +87,16 @@
 }
 
 .headline {
+  font-family: "Playfair Display", serif;
   font-size: var(--font-38px);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
 .bio {
   font-size: var(--font-20px);
   line-height: 1.7rem;
-  color: #555;
+  color: #777;
   font-weight: 400;
 
   strong {
@@ -161,23 +162,6 @@
   height: 45px;
   object-fit: contain;
   border-radius: 8px;
-}
-
-/* 3. GitHub 잔디 */
-.profile-github {
-  text-align: center;
-}
-
-.github-caption {
-  font-size: var(--font-16px);
-  margin-bottom: 16px;
-  font-weight: 600;
-  color: #444;
-}
-
-.profile-github img {
-  width: 90%;
-  object-fit: contain;
 }
 
 /* 
