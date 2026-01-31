@@ -523,16 +523,16 @@ section3 Web Project pc
   }
 
   .pc-main .pc-goto .pc-merit {
-    font-size: var(--font-14px);
+    font-size: 13px;
     font-weight: 500;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     margin-top: -30px;
 
     ul li {
-      width: 95%;
+      width: 99%;
       margin: 0 auto;
-      gap: 5px;
-      padding-bottom: 2px;
+      gap: 3px;
+      padding-bottom: 0;
 
       i {
         font-size: 13px !important;
