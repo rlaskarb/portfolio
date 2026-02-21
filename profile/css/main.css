@@ -417,11 +417,13 @@ section3 Web Project pc
   }
 
   .pc-wrap .mobile-video {
-    width: 80%;
-  }
+    width: 100%;
+    margin: 0 auto;
 
-  .pc-wrap .mobile-video video {
-    width: 80%;
+    video {
+      width: 150px;
+      margin: -100px 110px;
+    }
   }
 
   .pc-wrap .pc-video img {
@@ -454,7 +456,7 @@ section3 Web Project pc
       font-size: 20px !important;
       line-height: 1.4rem;
       font-weight: 600;
-      margin-top: 1px;
+      margin-top: -15px;
     }
 
     em {
@@ -472,6 +474,7 @@ section3 Web Project pc
         img {
           width: 40px;
           height: 40px;
+          margin-top: -20px;
           object-fit: contain;
         }
       }
@@ -483,6 +486,7 @@ section3 Web Project pc
         font-size: var(--font-14px);
         font-weight: 500;
         border-radius: 10px;
+        margin-top: -23px;
         border: 3px solid transparent;
       }
     }
@@ -526,7 +530,7 @@ section3 Web Project pc
     font-size: 13px;
     font-weight: 500;
     line-height: 1.1rem;
-    margin-top: -30px;
+    margin-top: -45px;
 
     ul li {
       width: 99%;
@@ -561,13 +565,7 @@ section3 Web Project pc
     display: none;
   }
 
-  #videoSec7 {
-    width: 60%;
-    height: 45%;
-    margin: 50px auto 0;
-  }
-
   .mobile-main {
-    margin: -200px auto 0;
+    margin: -30px auto;
   }
 }

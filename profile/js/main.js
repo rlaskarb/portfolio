@@ -19,11 +19,11 @@ const headerShortcuts = [
 const chatListData = [
   {
     id: "portfolio-intro",
-    title: " 김남규의 포트폴리오",
+    title: " 위궤양개츠비의 포트폴리오",
     lastMessage: "찾아와 주셔서 감사합니다.",
     time: "방금",
     unread: 2,
-    avatar: "./images/kyu.avif",
+    avatar: "./images/1.avif",
     mediaType: "image",
     isClickable: true,
   },
@@ -90,19 +90,19 @@ const kakaotalkData = {
   "portfolio-intro": [
     //chatListData 의 id 연결
     {
-      speaker: "김남규",
+      speaker: "위궤양개츠비",
       avatar: "./images/1.avif",
       mediaType: "image",
       message: "찾아와주셔서 감사합니다!",
     },
 
     {
-      speaker: "김남규1",
-      message: "김남규의 포트폴리오를 시작하겠습니다.",
+      speaker: "위궤양개츠비1",
+      message: "위궤양개츠비의 포트폴리오를 시작하겠습니다.",
     },
 
     {
-      speaker: "김남규1",
+      speaker: "위궤양개츠비1",
       message: '<a href="#2section">프로필 바로가기</a>',
     },
   ],
@@ -247,7 +247,7 @@ function addChatClickEvent() {
 function createKakaotalkUI(chatroomId) {
   const messageContainer = document.querySelector(".kakaotalk-messages");
   const conversationHeader = document.querySelector(
-    ".conversation-panel .kakakotalk-header"
+    ".conversation-panel .kakakotalk-header",
   );
   if (!messageContainer || !conversationHeader) return;
 
@@ -276,7 +276,8 @@ function createKakaotalkUI(chatroomId) {
 
   messageContainer.innerHTML = messages
     .map(function (chat) {
-      const messageType = chat.speaker === "김남규1" ? "sent" : "received";
+      const messageType =
+        chat.speaker === "위궤양개츠비1" ? "sent" : "received";
 
       if (messageType === "received") {
         let messageAavatarHTML;
@@ -394,7 +395,7 @@ $(document).ready(function () {
             videoElement.play().catch(function (error) {
               console.error(
                 `비디오 자동 재생 실패 (${videoInfo.videoId}):`,
-                error
+                error,
               );
             });
           }
@@ -421,7 +422,7 @@ $(document).ready(function () {
             video.play().catch(function (error) {
               return console.log(
                 `초기 비디오재생 실패(${videoInfo.videoId}) :`,
-                error
+                error,
               );
             });
           }
